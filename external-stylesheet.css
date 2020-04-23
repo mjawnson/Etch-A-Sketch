@@ -1,0 +1,23 @@
+/* CSS for Etch-A-Sketch project in linked html index.html */
+#container {
+    border: .5px solid black;
+    display: grid;
+    width: 650px;
+    height: 650px;
+}
+
+#button {
+    display: block;
+    justify-self: stretch;
+}
+
+.grid-item {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.grid-item-hover {
+    background-color: black;
+}
